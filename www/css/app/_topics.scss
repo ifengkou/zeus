@@ -1,0 +1,38 @@
+.topics{
+  .item-content{
+    padding: 14px 16px 18px 74px;
+    > img{
+      &:not(:first-child){
+        -webkit-transform: translate3d(-2000px,-2000px,0px);
+        position: absolute;
+      }
+    }
+  }
+}
+.activated{
+  .tab{
+    &:not(.h1){
+      background-color: #aeaeae;
+      color: #ffffff;
+    }
+  }
+}
+.ago,
+.summary{
+  font-size: 12px;
+}
+.tab{
+  background-color: #E5E5E5;
+  color: #999999;
+  border-radius: 2px;
+  padding: 2px 4px;
+}
+.h1{
+  background-color: $node-green;
+  color: #ffffff;
+}
+.topic-content{
+  img{
+    max-width:100%;
+  }
+}
