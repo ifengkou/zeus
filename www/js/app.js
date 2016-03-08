@@ -171,4 +171,4 @@ angular.module('zeus.controllers', ['zeus.services']);
 angular.module('zeus.services', ['ngResource', 'zeus.config']);
 angular.module('zeus.filters', ['zeus.services']);
 
-angular.module('zeus.directives', []);
+angular.module('zeus.directives', ['ionic']);

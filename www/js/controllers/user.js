@@ -52,14 +52,14 @@
       }
 
       //logout action
-      $scope.logout = function(){
+      $scope.logout = function () {
         $log.debug("logout button action");
         User.logout();
         $rootScope.$broadcast("logout");
 
         //track event
-        if(window.analytics){
-          window.analytics.trackEvent('User','logout');
+        if (window.analytics) {
+          window.analytics.trackEvent('User', 'logout');
         }
       }
     });
